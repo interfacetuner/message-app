@@ -1,0 +1,23 @@
+body {
+  font-weight: bolder;
+  height: 100vh;
+  background-color: rgb(69, 217, 240);
+  background-image: linear-gradient(rgb(69, 217, 240), yellow);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.aligncenter {
+  display: flex;
+  justify-content: center;
+}
