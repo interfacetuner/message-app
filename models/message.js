@@ -1,41 +1,20 @@
-const messages = [{
-    text: 'Aliens are watching me!',
-  },
-  {
-    text: 'Squid people in my shed!',
-  },
-  {
-    text: 'Lost my head in 88!',
-  },
-  {
-    text: 'Reptillians in PTA meetings!',
-  }
-];
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-function getAll(id) {
-  return messages;
-}
 
-function getOne(id) {
-  return messages[id];
-}
+const messageSchema = new Schema({
+  title: String
+}, {
+  timestamps: true
+});
 
-function create(message) {
-  messages.push(message);
-}
 
-function deleteOne(id) {
-  messages.splice(id, 1);
-}
+module.exports = mongoose.model('Message', messageSchema);
 
-function updateOne(id, updatedMessage) {
-  messages.splice(id, 1, updatedMessage);
-}
-
-module.exports = {
-  getAll,
-  getOne,
-  create,
-  deleteOne,
-  updateOne,
-};
+// module.exports = {
+//   getAll,
+//   getOne,
+//   create,
+//   deleteOne,
+//   updateOne,
+// };

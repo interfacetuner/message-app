@@ -15,8 +15,8 @@
   <a href="/messages"><h3>All Messages</h3></a>
   <h1>Message #<%= messageNum %></h1>
   <div class='aligncenter'>
-  <h3><%= message.text %></h3>
+  <h3><%= message.title %></h3>
   </div>
-  <a href="/messages/<%= messageNum - 1 %>/edit"><h3>Edit This Message</h3></a>
+  <a href="/messages/<%= message._id %>/edit"><h3>Edit This Message</h3></a>
 </body>
 </html>

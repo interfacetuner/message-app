@@ -11,15 +11,12 @@
   <title>Edit Message</title>
 </head>
 <body>
-  <h1>Edit Message: <%= message.text %></h1>
+  <h1>Edit Message: </h1>
   <div class='aligncenter'>
-  <form action="/messages/<%= messageId %>?_method=PUT" method="POST">
+  <form action="/messages/<%= message._id %>?_method=PUT" method="POST">
     <label> Message Update:
-    <input type="text" name="text" value="<%= message.text %>">
+    <input type="text" name="title" value="<%= message.title %>">
     </label>
-    <!-- <label>Done:
-    <input type="checkbox" name="done" <%- message.done ? 'checked' : ""%>>
-    </label> -->
     <button type="submit">Submit Edit</button>
   </form>
 </div>

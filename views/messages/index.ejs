@@ -11,20 +11,19 @@
   <title>Message Board</title>
 </head>
 <body>
-    <h1>Posted @ <%= time %></h1>
-    <div class='aligncenter'>
+  <h1>Posted @ <%= time %></h1>
+  <div class='aligncenter'>
     <ul>
-    <% messages.forEach(function(message, idx) { %>
+      <% messages.forEach(function(message, idx) { %>
       <li>
-        <form action="/messages/<%= idx %>?_method=DELETE" method="post">
+        <form action="/messages/<%= message._id %>?_method=DELETE" method="post">
           <button type="submit">Destroy🔥</button>
         </form>
-        <a href="/messages/<%= idx %>">
-          <%= message.text %>
+        <a href="/messages/<%= message._id %>">
+          <%= message.title %>
         </a>
-      
       </li>
-    <% }); %>
+      <% }); %>
     </ul>
   </div>
   <a href="/messages/new"><h3>Add 🤫 Message</h3></a>
