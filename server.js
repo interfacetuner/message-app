@@ -11,6 +11,7 @@ const messagesRouter = require('./routes/messages');
 // Create the Express App
 const app = express();
 
+require('./config/database');
 
 // Configure the App (app.set)
 // We'll use the ejs view engine
