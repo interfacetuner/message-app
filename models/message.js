@@ -10,11 +10,3 @@ const messageSchema = new Schema({
 
 
 module.exports = mongoose.model('Message', messageSchema);
-
-// module.exports = {
-//   getAll,
-//   getOne,
-//   create,
-//   deleteOne,
-//   updateOne,
-// };
