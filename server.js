@@ -40,6 +40,6 @@ app.use("/messages", messagesRouter);
 
 // Tell the App to Listen on Port 3000
 //function may not be needed
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Express is listening on port 3000');
 });
