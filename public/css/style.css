@@ -1,23 +1,51 @@
 body {
   font-weight: bolder;
   height: 100vh;
-  background-color: rgb(69, 217, 240);
-  background-image: linear-gradient(rgb(69, 217, 240), yellow);
-  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #c5d5cb;
+  font-family: "Lora", sans-serif;
+  color: orange;
 }
-
 
 h1 {
   display: flex;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 a {
   display: flex;
   justify-content: center;
+
+  color: rgb(218, 157, 44);
 }
 
 .aligncenter {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(218, 157, 44);
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: rgb(218, 157, 44);
+  border-radius: 6px;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
