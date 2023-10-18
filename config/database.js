@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://SEI:Weezer@cluster0.7peh7.mongodb.net/messages?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI || //your mongoDB secret, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
