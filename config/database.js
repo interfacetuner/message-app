@@ -8,7 +8,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://SEI:Weezer@cluster0.7
 });
 
 const db = mongoose.connection;
-
+// Connect to MongoDB
 db.on('connected', function () {
   console.log(`Connected to MongoDB on ${db.host}:${db.port}`);
 });

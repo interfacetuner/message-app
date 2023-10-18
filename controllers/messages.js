@@ -4,11 +4,15 @@ function getAll(id) {
   return messages;
 }
 
+// Function to get message by id
 function getOne(id) {
+  // Return message from messages array
   return messages[id];
 }
 
+// Function to create a message
 function create(message) {
+  // Push the message to the messages array
   messages.push(message);
 }
 
