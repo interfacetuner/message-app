@@ -3,7 +3,7 @@
 
 # A Message App
 
-> A simple message web app using CRUD 
+> A simple messaging web app using CRUD 
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ v8.16.0
 Start with cloning this repo on your local machine:
 
 ```sh
-$ git clone https://github.com/interfacetuner/message-app.git
+$ git clone https://github.com/interfacetuner/message-app
 $ cd message-app
 ```
 
