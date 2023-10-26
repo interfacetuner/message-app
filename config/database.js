@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || //your mongoDB secret, {
+mongoose.connect(process.env.MONGODB_URI || ' Your mongoDB access here ', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
