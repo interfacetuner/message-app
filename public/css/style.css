@@ -33,13 +33,14 @@ a {
   height: 250px; /* Set container height */
  }
 
+ /* text input styling */
 input[type="text"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 6px 0;
-  box-sizing: border-box;
-  border: 2px solid rgb(218, 157, 44);
-  border-radius: 6px;
+  width: 100%; /* full width input */
+  padding: 12px 20px; /* padding around input text */
+  margin: 6px 0; /* margin around input */
+  box-sizing: border-box; /* box sizing includes padding and border */
+  border: 2px solid rgb(218, 157, 44); /* border color and thickness */
+  border-radius: 6px; /* rounded border corners */
 }
 
 button[type="submit"] {
