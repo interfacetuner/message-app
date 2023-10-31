@@ -72,7 +72,7 @@ $ npm run serve:dist
 
 * JavaScript
 * NodeJS
-* ejs
+* EJS
 * HTML5
 * CSS3
 * MongoDB
