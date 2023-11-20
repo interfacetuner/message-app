@@ -3,7 +3,7 @@ body {
   height: 100vh;
   background-color: #c5d5cb;
   font-family: "Lora", sans-serif;
-  color: orange;
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -17,7 +17,7 @@ a {
   display: flex;
   justify-content: center;
 
-  color: rgb(246, 196, 104);
+  color: rgb(0, 0, 0);
 }
 /* Custom color for text */
 .aligncenter {
